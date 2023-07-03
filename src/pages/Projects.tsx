@@ -7,7 +7,7 @@ import projects from '../Projects';
 const Projects: React.FC = () => {
     return (
         <div id="projects" className="p-5 bg-blender">
-            <h2 className="text-2xl mb-5 font-bold text-white"><FaCode className="inline-block mr-2 text-white" />Projects</h2>
+            <h2 className="text-3xl mb-5 font-bold text-white"><FaCode className="inline-block mr-2 text-white" />Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 {projects.map((project, index) => (
                     <a

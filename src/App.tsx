@@ -14,15 +14,12 @@ const App: React.FC = () => {
       <div className="md:mb-8"><Hero /></div>
 
       {/* <Hero /> Removed margin here */}
-      <div className="mb-4 md:mb-24"><About /></div>
-      <div className="mb-4 md:mb-8"><Projects /></div>
-      <div className="mb-4 md:mb-8"><Contact /></div>
+      <div className="mb-2 md:mb-16"><About /></div>
+      <div className="mb-1 md:mb-2"><Projects /></div>
+      <div className="mb-0 md:mb-1"><Contact /></div>
       <Footer />
     </div>
   );
 };
-
-
-
 
 export default App;
