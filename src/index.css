@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this import to the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1e1e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+.skill .CircularProgressbar {
+  width: 60px;
+  height: 60px;
+}
+
+.skill .CircularProgressbar .CircularProgressbar-path {
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.skill .CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
