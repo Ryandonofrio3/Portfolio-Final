@@ -49,3 +49,13 @@ html {
   fill: white !important;
   stroke: white !important;
 }
+
+.input-field:focus {
+  outline: none;
+  border-color: transparent;
+}
+
+.textarea-field:focus {
+  outline: none;
+  border-color: transparent;
+}

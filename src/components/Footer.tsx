@@ -5,7 +5,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
     return (
-        <div className="bg-slate-800 p-4">
+        <div className="bg-blendll p-4">
             <div className="flex items-center justify-between text-white">
                 <div>
                     &copy; {new Date().getFullYear()} Ryan D'Onofrio. All rights reserved.
