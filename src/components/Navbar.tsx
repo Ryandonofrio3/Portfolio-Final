@@ -26,11 +26,13 @@ const Navbar: React.FC = () => {
                 }`}
         >
             <ul className="flex justify-end space-x-5">
-                <li><a href="#hero" className={`text-2xl  text-white hover:text-green-300 transition duration-200`}>Home</a></li>
-                <li><a href="#about" className={`text-2xl text-white hover:text-green-300 transition duration-200`}>About</a></li>
-                <li><a href="#projects" className={`text-2xl text-white hover:text-green-300 transition duration-200`}>Projects</a></li>
-                <li><a href="#contact" className={`text-2xl text-white hover:text-green-300 transition duration-200`}>Contact</a></li>
-                <li><a href="#resume" className={`text-2xl text-white hover:text-green-300 transition duration-200`}>Resume</a></li>      </ul>
+                <li><a href="#hero" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Home</a></li>
+                <li><a href="#about" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>About</a></li>
+                <li><a href="#projects" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Projects</a></li>
+                <li><a href="#contact" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Contact</a></li>
+                <li><a href="#resume" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Resume</a></li>
+            </ul>
+
         </nav>
     );
 };

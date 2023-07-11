@@ -4,7 +4,7 @@ import SkillsDisplay from '../components/skills'; // the correct path to your Sk
 
 const About: React.FC = () => {
     return (
-        <div id="about" className="p-5 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 bg-blender">
+        <div id="about" className="hero p-5 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 bg-blender">
             <div className="flex-1">
                 <img
                     src="headshot.jpeg"
@@ -26,11 +26,11 @@ const About: React.FC = () => {
                 <p className="text-3xl text-white">
                     Having a strong background in biology allows me to approach problems with a unique perspective. Combined with my coding skills, this enables me to create innovative and impactful solutions.
                 </p>
-
+                {/* 
                 <h2 className="text-3xl font-bold text-white flex items-center">
                     My Skills
                 </h2>
-                <SkillsDisplay />
+                <SkillsDisplay /> */}
             </div>
         </div>
     );

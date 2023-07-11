@@ -30,8 +30,8 @@ const Contact: React.FC = () => {
                 <h2 className="text-4xl md:text-9xl mb-5 font-bold">Get in Touch</h2>
             </div>
 
-            <div className="w-3/4 mr-20 space-y-5 flex justify-end">
-                <div className="p-4 bg-blendl rounded text-black w-2/3">
+            <div className="contact w-3/4 mr-20 space-y-5 flex justify-end">
+                <div className="contact p-4 bg-blendl rounded text-black w-2/3">
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-7 pt-2">
                         <div>
                             <input

@@ -22,6 +22,21 @@
 }
 
 
+.card-container {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  /* Adjust according to your needs */
+}
+
+.p-5.text-center {
+  padding: 5%;
+  margin-top: 80%;
+}
+
+
+
+
 
 .App-header {
   background-color: #282c34;

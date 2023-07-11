@@ -11,7 +11,7 @@ interface Project {
 const projects: Project[] = [
     {
         title: 'Aedes Aegypti Lifespan Extension',
-        description: 'Designed novel system to extend the lifespan of Aedes Aegypti mosquitoes using CRISPR/Cas9.',
+        description: 'Designed novel CRISPR construct to extend the lifespan of Aedes Aegypti mosquitoes using CRISPR/Cas9.',
         imageUrl: 'aedes.png',
         projectUrl: 'https://labs.mcdb.ucsb.edu/montell/craig/',
         projectDates: '2021-Present'
@@ -19,14 +19,14 @@ const projects: Project[] = [
     {
         title: 'ResearchRadar',
         description: 'Co-founded AI startup that helps researchers stay up to date with the latest research in their field.',
-        imageUrl: 'rr.png',
+        imageUrl: 'output.png',
         projectUrl: 'https://research-radar.com',
         projectDates: '2023-Present'
     },
     {
         title: "MagicMirrorUS",
         description: 'Founded and ran a company designing and producing custom Linux based smart mirrors.',
-        imageUrl: 'rpi.jpg',
+        imageUrl: '6rpi.svg',
         projectUrl: 'https://magicmirror.us',
         projectDates: '2017-2021'
     }
