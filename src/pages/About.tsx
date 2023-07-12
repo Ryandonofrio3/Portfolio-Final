@@ -20,7 +20,7 @@ const About: React.FC = () => {
                     <FaCodeBranch className="ml-3 text-blue-500 mr-2" />
                 </h2>
 
-                <p className="text-3xl text-white">
+                <p className="text-3xl text-white text-left">
                     I am Ryan D'Onofrio, a PhD candiate in Dynamical Neuroscience at UC Santa Barbara. <br /> <br />  Throughout this journey, I've uncovered a passion for the intersection of software development and scientific exploration <br /> <br />
                     Armed with creative problem-solving abilities, an innovative mindset, and a deep-seated passion for advancing our world through science, I am excited to
 
