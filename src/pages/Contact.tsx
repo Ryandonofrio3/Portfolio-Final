@@ -26,11 +26,14 @@ const Contact: React.FC = () => {
     };
     return (
         <div id="contact" className="p-5 mt-20 ml-6 text-white flex flex-row text-left">
-            <div className="w-1/4 space-y-5 mr-20">
-                <h2 className="text-4xl md:text-9xl mb-5 font-bold">Get in Touch</h2>
+            <div className="w-1/4 space-y-5 mr-20 mt-6">   {/* Add a top margin here */}
+                <h2 className="text-4xl md:text-9xl mb-5 font-bold">Get</h2>
+                <h2 className="text-4xl md:text-9xl mb-5 ml-1 font-bold"> in </h2>
+                <h2 className="text-4xl md:text-9xl mb-5 font-bold">  Touch</h2>
+
             </div>
 
-            <div className="contact w-3/4 mr-20 space-y-5 flex justify-end">
+            <div className="contact w-3/4 mr-12 mb-12 space-y-3 flex justify-end">
                 <div className="contact p-4 bg-blendl rounded text-black w-2/3">
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-7 pt-2">
                         <div>

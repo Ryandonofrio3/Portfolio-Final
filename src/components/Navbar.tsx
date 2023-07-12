@@ -26,12 +26,13 @@ const Navbar: React.FC = () => {
                 }`}
         >
             <ul className="flex justify-end space-x-5">
-                <li><a href="#hero" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Home</a></li>
-                <li><a href="#about" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>About</a></li>
-                <li><a href="#projects" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Projects</a></li>
-                <li><a href="#contact" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Contact</a></li>
-                <li><a href="#resume" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden`}>Resume</a></li>
+                <li><a href="#hero" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Home</a></li>
+                <li><a href="#about" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>About</a></li>
+                <li><a href="#projects" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Projects</a></li>
+                <li><a href="#contact" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1r5Yo-nOObCPOpwqPbkyt122DdulkeLsq/view?usp=sharing" target="_blank" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Resume</a></li>
             </ul>
+
 
         </nav>
     );

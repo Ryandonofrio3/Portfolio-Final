@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <div className="mb-4 md:mb-8"><Navbar /></div>
 
       <div className="mb-2 md:mb-16"><About /></div>
-      <div className="mb-2 md:mb-16"><Expertise /></div>
+      {/* <div className="mb-2 md:mb-16"><Expertise /></div> */}
 
       <div className="mb-1 md:mb-2"><Projects /></div>
       <div className="mb-4 md:mb-4"><Contact /></div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaCode, FaChevronCircleDown, FaChevronCircleUp } from 'react-icons/fa';
+import { FaCode, FaChevronCircleDown, FaChevronCircleRight, FaChevronCircleLeft } from 'react-icons/fa';
 import projects from '../Projects';
 
 const Projects: React.FC = () => {
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
     return (
         <div id="projects" className="p-5 bg-blender">
             <h2 className="text-3xl mb-5 font-bold text-white">
-                <FaCode className="inline-block mr-2 text-white" />Projects
+                <FaCode className="inline-block mr-2 text-white" />My Projects
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                 {projects.map((project, index) => (
@@ -35,18 +35,15 @@ const Projects: React.FC = () => {
                                         <img src={project.imageUrl} alt={project.title} className="mt-3 rounded object-cover h-64 w-50 align-middle" />
                                     </div>
                                     <div className="flex justify-center items-center mt-4">
-                                        <FaChevronCircleDown size={30} />
+                                        <FaChevronCircleRight size={30} />
                                     </div>
                                 </div>
                             </div>
                             <div className="card-face back flex flex-col items-center justify-center h-full">
-                                <div className="flex justify-center items-center mb-4">
-                                    <FaChevronCircleUp size={30} />
-                                </div>
                                 <div className="p-5 text-center">
-                                    <h3 className="font-bold mb-4 text-xl">{project.title}</h3>
-                                    <p>{project.description}</p>
-                                    <p>{project.projectDates}</p>
+                                    <h3 className="font-bold mb-20 text-xl">{project.title} <br /> {project.projectDates}</h3>
+
+                                    <p className="mb-14 justify-center items-center">{project.description}</p>
                                     <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
                                         <button className="py-2 px-4 mt-3 bg-purple-600 hover:bg-purple-700 transition duration-200 rounded text-white inline-flex items-center">
                                             Read More
@@ -59,7 +56,7 @@ const Projects: React.FC = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </div >
     );
 };
 
