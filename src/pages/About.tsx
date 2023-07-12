@@ -13,14 +13,14 @@ const About: React.FC = () => {
                 />
             </div>
             <div className="flex-1 space-y-5">
-                <h2 className="text-3xl font-bold flex items-center text-center ml-20">
+                <h2 className="text-3xl font-bold flex items-center text-left">
                     <FaLeaf className="text-green-500 mr-3 text-3xl" />
                     <span className="text-white">Where Biology Meets</span> &nbsp;
                     <span className="text-white">Code</span>
                     <FaCodeBranch className="ml-3 text-blue-500 mr-2" />
                 </h2>
 
-                <p className="text-3xl text-white">
+                <p className="text-3xl text-white text-left">
                     I am Ryan D'Onofrio, a PhD candiate in Dynamical Neuroscience at UC Santa Barbara. <br /> <br />  Throughout this journey, I've uncovered a passion for the intersection of software development and scientific exploration <br /> <br />
                     Armed with creative problem-solving abilities, an innovative mindset, and a deep-seated passion for advancing our world through science, I am excited to
 
