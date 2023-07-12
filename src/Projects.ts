@@ -19,7 +19,7 @@ const projects: Project[] = [
     {
         title: 'ResearchRadar',
         description: 'Co-founded AI startup that helps researchers stay up to date with the latest research in their field.',
-        imageUrl: 'output.png',
+        imageUrl: 'output2.png',
         projectUrl: 'https://research-radar.com',
         projectDates: '2023-Present'
     },
