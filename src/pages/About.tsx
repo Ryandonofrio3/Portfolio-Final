@@ -13,7 +13,7 @@ const About: React.FC = () => {
                 />
             </div>
             <div className="flex-1 space-y-5">
-                <h2 className="text-3xl font-bold flex items-center text-center ml-20">
+                <h2 className="text-3xl font-bold flex items-center text-left">
                     <FaLeaf className="text-green-500 mr-3 text-3xl" />
                     <span className="text-white">Where Biology Meets</span> &nbsp;
                     <span className="text-white">Code</span>
