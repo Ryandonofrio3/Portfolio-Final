@@ -31,19 +31,20 @@ const Projects: React.FC = () => {
                             <div className="card-face front">
                                 <div className="p-5">
                                     <h3 className="font-bold mb-3 text-xl">{project.title}</h3>
-                                    <div className="image-container">
-                                        <img src={project.imageUrl} alt={project.title} className="mt-3 rounded object-cover h-64 w-50 align-middle" />
+                                    <div className="image-container" style={{ height: '275px' }}>
+                                        <img src={project.imageUrl} alt={project.title} className="mt-3 rounded object-cover h-100% w-auto align-middle" />
                                     </div>
                                     <div className="flex justify-center items-center mt-4">
                                         <FaChevronCircleRight size={30} />
                                     </div>
                                 </div>
                             </div>
-                            <div className="card-face back flex flex-col items-center justify-center h-full">
-                                <div className="p-5 text-center">
-                                    <h3 className="font-bold mb-20 text-xl">{project.title} <br /> {project.projectDates}</h3>
-
-                                    <p className="mb-14 justify-center items-center">{project.description}</p>
+                            <div className="card-face back flex flex-col justify-between">
+                                <div className="text-center mt-64">
+                                    <h3 className="font-bold text-xl">{project.title} <br /> {project.projectDates}</h3>
+                                </div>
+                                <div className="mt-16 text-center">
+                                    <p>{project.description}</p>
                                     <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
                                         <button className="py-2 px-4 mt-3 bg-purple-600 hover:bg-purple-700 transition duration-200 rounded text-white inline-flex items-center">
                                             Read More
