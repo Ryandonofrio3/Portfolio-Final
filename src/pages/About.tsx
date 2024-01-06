@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <div id="about" className="hero p-5 flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 bg-blender">
             <div className="flex-1">
                 <img
-                    src="headshot.jpeg"
+                    src="headshot.png"
                     alt="Headshot"
                     className="w-3/4 object-cover rounded shadow-lg mx-auto" // reduced image size and centered
                 />
