@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
                 <li><a href="#about" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>About</a></li>
                 <li><a href="#projects" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Projects</a></li>
                 <li><a href="#contact" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1VFTzF8a2wmK8Z2aAKyCLvdY_4Mi7lzO7/view?usp=sharing" target="_blank" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/15Q2NhZ5B1Ht9YI4Ti4qveXFliElPDOtb/view?usp=sharing" target="_blank" className={`text-2xl text-white hover:text-green-300 transition duration-200 overflow-hidden link-with-underline`}>Resume</a></li>
             </ul>
 
 
