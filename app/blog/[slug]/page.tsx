@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import PostLayout from '../post-layout';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
     const postsDirectory = path.join(process.cwd(), 'app/blog/posts');
@@ -28,8 +29,10 @@ export default async function PostPage({ params }: { params: { slug: string } })
         notFound();
     }
 
+
     return (
         <PostLayout>
+
             <article className="prose prose-sm mx-auto max-w-3xl text-white">
                 <h1>{data.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: content }} />
@@ -37,5 +40,3 @@ export default async function PostPage({ params }: { params: { slug: string } })
         </PostLayout>
     );
 }
-
-
