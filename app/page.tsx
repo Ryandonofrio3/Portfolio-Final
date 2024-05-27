@@ -18,40 +18,7 @@ import { CanvasRevealEffectDemo } from "./components/hover-effect";
 
 export default function Home() {
 
-  const hoverItems = [
-    {
-      title: "Python",
-      description: "",
-      icon_before: <AiOutlinePython className="text-6xl text-center mx-auto text-white" />,
-      icon_after: <AiOutlinePython className="text-6xl text-center mx-auto text-black" />,
-    },
-    {
-      title: "NextJS",
-      description: "",
-      icon: <RiNextjsLine className="text-6xl text-center mx-auto text-white" />,
-    },
-    {
-      title: "TailwindCSS",
-      description: "",
-      icon: <RiTailwindCssFill className="text-6xl text-center mx-auto text-white" />,
-    },
-    {
-      title: "R",
-      description: "",
-      icon: <FaRProject className="text-6xl text-center mx-auto text-white" />,
-    },
-    {
-      title: "CRISPR Engineering",
-      description: "",
-      icon: <GiDna1 className="text-6xl text-center mx-auto text-white" />,
-    },
-    {
-      title: "PostgreSQL",
-      description: "",
-      icon: <BiLogoPostgresql className="text-6xl text-center mx-auto text-white" />,
-    },
-    
-  ];
+
 
   return (
     <main>
@@ -103,10 +70,8 @@ export default function Home() {
     <div className="text-white text-6xl font-bold ml-64 mt-64">
       Skills and Projects
     </div>
-    <div className="mt-10">
-        <CanvasRevealEffectDemo
-      
-      />
+    <div className="mt-10 mx-auto w-3/4">
+        <CanvasRevealEffectDemo />
     </div>
     <div className="mt-10 text-white text-6xl font-bold ml-64">
       {/* <CanvasRevealEffect

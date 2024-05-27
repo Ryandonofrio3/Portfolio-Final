@@ -68,17 +68,6 @@ const PythonIconBefore = () => {
     );
   };
 
-  const RIconBefore = () => (
-    <div className="w-40 h-40">
-      <RLogo className="filter grayscale w-full h-full" />
-    </div>
-  );
-  
-  const RIconAfter = () => (
-    <div className="w-40 h-40">
-      <RLogo className="w-full h-full" />
-    </div>
-  );
 
   const R2IconBefore = () => (
     <div>
@@ -87,7 +76,7 @@ const PythonIconBefore = () => {
   );
   
   const R2IconAfter = () => (
-    <FaRProject className="text-9xl text-center mx-auto text-blue-500" />
+    <FaRProject className="text-9xl text-center mx-auto text-blue-700" />
   );
 export function CanvasRevealEffectDemo() {
   return (
@@ -101,7 +90,7 @@ export function CanvasRevealEffectDemo() {
          link="https://furnisheureka.com"
          >
           <CanvasRevealEffect
-            animationSpeed={5.1}
+            animationSpeed={3}
             containerClassName="bg-slate-500"
           />
         </Card>
@@ -131,7 +120,7 @@ export function CanvasRevealEffectDemo() {
         <Card title="R" icon_before={<R2IconBefore />} icon_after={< R2IconAfter />}>
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600"
+            containerClassName="bg-sky-400"
             colors={[[125, 211, 252]]}
           />
         </Card> 
