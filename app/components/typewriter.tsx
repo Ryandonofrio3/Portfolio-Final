@@ -29,14 +29,12 @@ export function TypewriterEffectDemo() {
         <TypewriterEffect words={words} />
       </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-10 z-20">
-        <Button asChild className="w-40 h-10 rounded-xl bg-black border border-white outline-2 dark:border-white text-white text-sm">
-            <Link  href="mailto:ryandonofrio@gmail.com"> Contact Me </Link>
-
+        <Button asChild className="w-40 h-10 rounded-xl bg-black border border-white outline-2 dark:border-white text-white text-sm transform transition-transform duration-300 hover:bg-white hover:text-black hover:scale-105">
+            <Link href="mailto:ryandonofrio@gmail.com"> Contact Me </Link>
         </Button>   
 
-        <Button className="w-40 h-10 rounded-xl bg-white border border-black outline-2 dark:border-black text-black text-sm hover:bg-gray-100"
-        asChild>
-          <Link href="/blog" target="_blank" > Blog </Link>
+        <Button className="w-40 h-10 rounded-xl bg-white border border-black outline-2 dark:border-black text-black text-sm transform transition-transform duration-300 hover:bg-black hover:text-white hover:scale-105 hover:outline-2 hover:outline-black hover:border-black" asChild>
+          <Link href="/blog" target="_blank"> Read my Blog! </Link>
         </Button>
       </div>
     </div>
